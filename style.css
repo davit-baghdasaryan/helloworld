@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: red;
+    height: 100px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    float: left;
+}
